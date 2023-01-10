@@ -1,0 +1,129 @@
+{
+  "ImplementationGuide/CISIS.CDL" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "/home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/ImplementationGuide-CISIS.CDL.json",
+    "sourceTail" : "ImplementationGuide-CISIS.CDL.json",
+    "path" : "ImplementationGuide-CISIS.CDL.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL",
+    "version" : "1.0",
+    "name" : "CDL",
+    "date" : "2023-01-10T12:31:33+01:00",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Draft"
+    }
+  },
+  "Patient/PatientExample" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/Patient-PatientExample.json",
+    "sourceTail" : "Patient-PatientExample.json",
+    "path" : "Patient-PatientExample.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/cdl-documentreference" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/StructureDefinition-cdl-documentreference.json",
+    "sourceTail" : "StructureDefinition-cdl-documentreference.json",
+    "path" : "StructureDefinition-cdl-documentreference.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
+    "version" : "1.0",
+    "name" : "CdLDocumentReference",
+    "date" : "2023-01-10T12:31:33+01:00",
+    "description" : "Profil permettant de représenter les informations relatives à la note",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Active"
+    }
+  },
+  "CapabilityStatement/capabilitystatement-cdl-createur" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-createur.json",
+    "sourceTail" : "CapabilityStatement-capabilitystatement-cdl-createur.json",
+    "path" : "CapabilityStatement-capabilitystatement-cdl-createur.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-createur",
+    "version" : "1.0",
+    "name" : "cdl-createur",
+    "experimental" : true,
+    "date" : "2022-12-19",
+    "description" : "Le créateur de contenu est une personne ou une entité qui alimente le cahier de liaison par des informations \nqui ont vocation à être partagées. Le créateur de contenu peut être un logiciel métier\ninstallé sur un ordinateur, une application installée sur un téléphone mobile ou une \ntablette ainsi que tout autre dispositif utilisé par une personne ou une entité pour \nalimenter le cahier de liaison.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/MyPatient" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/StructureDefinition-MyPatient.json",
+    "sourceTail" : "StructureDefinition-MyPatient.json",
+    "path" : "StructureDefinition-MyPatient.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/MyPatient",
+    "version" : "1.0",
+    "name" : "MyPatient",
+    "date" : "2023-01-10T12:31:33+01:00",
+    "description" : "An example profile of the Patient resource.",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Active"
+    }
+  },
+  "CapabilityStatement/capabilitystatement-cdl-gestionnaire" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-gestionnaire.json",
+    "sourceTail" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.json",
+    "path" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-gestionnaire",
+    "version" : "1.0",
+    "name" : "cdl-gestionnaire",
+    "experimental" : true,
+    "date" : "2022-12-19",
+    "description" : "Système d'information ou composant de système d'information qui implémente le cahier de liaison",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Draft"
+    }
+  },
+  "CapabilityStatement/capabilitystatement-cdl-consommateur" : {
+    "history" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-consommateur.json",
+    "sourceTail" : "CapabilityStatement-capabilitystatement-cdl-consommateur.json",
+    "path" : "CapabilityStatement-capabilitystatement-cdl-consommateur.html",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-consommateur",
+    "version" : "1.0",
+    "name" : "cdl-consommateur",
+    "experimental" : true,
+    "date" : "2022-12-19",
+    "description" : "Le consommateur de contenu envoie une demande de recherche de notes au gestionnaire de CdL",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "ANS",
+      "link" : "http://esante.gouv.fr",
+      "status" : "Draft"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "label" : "1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "previous" : "toc.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifacts Summary",
+    "label" : "2.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
+    "previous" : "index.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-consommateur.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-consommateur.html" : {
+    "title" : "capabilitystatement-cdl-consommateur",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-consommateur</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-consommateur-testing.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-consommateur-testing.html" : {
+    "title" : "capabilitystatement-cdl-consommateur - Testing",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-consommateur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-consommateur.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-consommateur.xml.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-consommateur.xml.html" : {
+    "title" : "capabilitystatement-cdl-consommateur - XML Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-consommateur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-consommateur-testing.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-consommateur.json.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-consommateur.json.html" : {
+    "title" : "capabilitystatement-cdl-consommateur - JSON Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-consommateur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-consommateur.xml.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-consommateur.ttl.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-consommateur.ttl.html" : {
+    "title" : "capabilitystatement-cdl-consommateur - TTL Representation",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-consommateur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-consommateur.json.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-createur.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-createur.html" : {
+    "title" : "capabilitystatement-cdl-createur",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-createur</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-consommateur.ttl.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-createur-testing.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-createur-testing.html" : {
+    "title" : "capabilitystatement-cdl-createur - Testing",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-createur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-createur.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-createur.xml.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-createur.xml.html" : {
+    "title" : "capabilitystatement-cdl-createur - XML Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-createur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-createur-testing.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-createur.json.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-createur.json.html" : {
+    "title" : "capabilitystatement-cdl-createur - JSON Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-createur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-createur.xml.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-createur.ttl.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-createur.ttl.html" : {
+    "title" : "capabilitystatement-cdl-createur - TTL Representation",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-createur</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-createur.json.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-gestionnaire.html" : {
+    "title" : "capabilitystatement-cdl-gestionnaire",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-gestionnaire</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-createur.ttl.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire-testing.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-gestionnaire-testing.html" : {
+    "title" : "capabilitystatement-cdl-gestionnaire - Testing",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-gestionnaire</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.xml.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-gestionnaire.xml.html" : {
+    "title" : "capabilitystatement-cdl-gestionnaire - XML Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-gestionnaire</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire-testing.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.json.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-gestionnaire.json.html" : {
+    "title" : "capabilitystatement-cdl-gestionnaire - JSON Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-gestionnaire</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.xml.html",
+    "next" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.ttl.html"
+  },
+  "CapabilityStatement-capabilitystatement-cdl-gestionnaire.ttl.html" : {
+    "title" : "capabilitystatement-cdl-gestionnaire - TTL Representation",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>capabilitystatement-cdl-gestionnaire</b></li>",
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.json.html",
+    "next" : "StructureDefinition-cdl-documentreference.html"
+  },
+  "StructureDefinition-cdl-documentreference.html" : {
+    "title" : "CdLDocumentReference",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "CapabilityStatement-capabilitystatement-cdl-gestionnaire.ttl.html",
+    "next" : "StructureDefinition-cdl-documentreference-definitions.html"
+  },
+  "StructureDefinition-cdl-documentreference-definitions.html" : {
+    "title" : "CdLDocumentReference - Definitions",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference.html",
+    "next" : "StructureDefinition-cdl-documentreference-mappings.html"
+  },
+  "StructureDefinition-cdl-documentreference-mappings.html" : {
+    "title" : "CdLDocumentReference - Mappings",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference-definitions.html",
+    "next" : "StructureDefinition-cdl-documentreference-testing.html"
+  },
+  "StructureDefinition-cdl-documentreference-testing.html" : {
+    "title" : "CdLDocumentReference - Testing",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference-mappings.html",
+    "next" : "StructureDefinition-cdl-documentreference.profile.xml.html"
+  },
+  "StructureDefinition-cdl-documentreference.profile.xml.html" : {
+    "title" : "CdLDocumentReference - XML Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference-testing.html",
+    "next" : "StructureDefinition-cdl-documentreference.profile.json.html"
+  },
+  "StructureDefinition-cdl-documentreference.profile.json.html" : {
+    "title" : "CdLDocumentReference - JSON Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference.profile.xml.html",
+    "next" : "StructureDefinition-cdl-documentreference.profile.ttl.html"
+  },
+  "StructureDefinition-cdl-documentreference.profile.ttl.html" : {
+    "title" : "CdLDocumentReference - TTL Representation",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CdLDocumentReference</b></li>",
+    "previous" : "StructureDefinition-cdl-documentreference.profile.json.html",
+    "next" : "StructureDefinition-MyPatient.html"
+  },
+  "StructureDefinition-MyPatient.html" : {
+    "title" : "MyPatient",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "examples" : [
+      {
+        "url" : "Patient-PatientExample.html",
+        "title" : "PatientExample"
+      }
+    ],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-cdl-documentreference.profile.ttl.html",
+    "next" : "StructureDefinition-MyPatient-definitions.html"
+  },
+  "StructureDefinition-MyPatient-definitions.html" : {
+    "title" : "MyPatient - Definitions",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient.html",
+    "next" : "StructureDefinition-MyPatient-mappings.html"
+  },
+  "StructureDefinition-MyPatient-mappings.html" : {
+    "title" : "MyPatient - Mappings",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient-definitions.html",
+    "next" : "StructureDefinition-MyPatient-testing.html"
+  },
+  "StructureDefinition-MyPatient-testing.html" : {
+    "title" : "MyPatient - Testing",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient-mappings.html",
+    "next" : "StructureDefinition-MyPatient-examples.html"
+  },
+  "StructureDefinition-MyPatient-examples.html" : {
+    "title" : "MyPatient - Examples",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient-testing.html",
+    "next" : "StructureDefinition-MyPatient.profile.xml.html"
+  },
+  "StructureDefinition-MyPatient.profile.xml.html" : {
+    "title" : "MyPatient - XML Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient-examples.html",
+    "next" : "StructureDefinition-MyPatient.profile.json.html"
+  },
+  "StructureDefinition-MyPatient.profile.json.html" : {
+    "title" : "MyPatient - JSON Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient.profile.xml.html",
+    "next" : "StructureDefinition-MyPatient.profile.ttl.html"
+  },
+  "StructureDefinition-MyPatient.profile.ttl.html" : {
+    "title" : "MyPatient - TTL Representation",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>",
+    "previous" : "StructureDefinition-MyPatient.profile.json.html",
+    "next" : "Patient-PatientExample.html"
+  },
+  "Patient-PatientExample.html" : {
+    "title" : "PatientExample",
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-MyPatient.profile.ttl.html",
+    "next" : "Patient-PatientExample.xml.html"
+  },
+  "Patient-PatientExample.xml.html" : {
+    "title" : "PatientExample - XML Representation",
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>",
+    "previous" : "Patient-PatientExample.html",
+    "next" : "Patient-PatientExample.json.html"
+  },
+  "Patient-PatientExample.json.html" : {
+    "title" : "PatientExample - JSON Representation",
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>",
+    "previous" : "Patient-PatientExample.xml.html",
+    "next" : "Patient-PatientExample.ttl.html"
+  },
+  "Patient-PatientExample.ttl.html" : {
+    "title" : "PatientExample - TTL Representation",
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>",
+    "previous" : "Patient-PatientExample.json.html"
+  }
+}

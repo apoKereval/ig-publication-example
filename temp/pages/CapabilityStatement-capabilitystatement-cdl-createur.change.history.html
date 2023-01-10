@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='CapabilityStatement' id='capabilitystatement-cdl-createur' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: cdl-createur - Change History</h2>
+  <p>History of changes for capabilitystatement-cdl-createur {{type | downcase}}.</p>
+
+  {%include CapabilityStatement-capabilitystatement-cdl-createur-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

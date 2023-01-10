@@ -1,0 +1,44 @@
+[
+  {
+    "id" : "capabilitystatement-cdl-consommateur",
+    "type" : "CapabilityStatement",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-consommateur",
+    "version" : "1.0",
+    "name" : "cdl-consommateur"
+  },
+  {
+    "id" : "capabilitystatement-cdl-createur",
+    "type" : "CapabilityStatement",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-createur",
+    "version" : "1.0",
+    "name" : "cdl-createur"
+  },
+  {
+    "id" : "capabilitystatement-cdl-gestionnaire",
+    "type" : "CapabilityStatement",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-gestionnaire",
+    "version" : "1.0",
+    "name" : "cdl-gestionnaire"
+  },
+  {
+    "id" : "CISIS.CDL",
+    "type" : "ImplementationGuide",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL",
+    "version" : "1.0",
+    "name" : "CDL"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/MyPatient",
+    "version" : "1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "cdl-documentreference",
+    "type" : "StructureDefinition",
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
+    "version" : "1.0",
+    "name" : "CdLDocumentReference"
+  }
+]

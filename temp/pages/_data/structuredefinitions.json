@@ -1,0 +1,40 @@
+{
+  "cdl-documentreference" : {
+    "index" : 0,
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
+    "name" : "CdLDocumentReference",
+    "title" : "CdLDocumentReference",
+    "path" : "StructureDefinition-cdl-documentreference.html",
+    "kind" : "resource",
+    "type" : "DocumentReference",
+    "base" : "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+    "basename" : "DocumentReference",
+    "basepath" : "http://hl7.org/fhir/R4/documentreference.html",
+    "status" : "active",
+    "date" : "Tue Jan 10 12:31:33 CET 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "ANS",
+    "copyright" : null,
+    "description" : "Profil permettant de représenter les informations relatives à la note"
+  },
+  "MyPatient" : {
+    "index" : 1,
+    "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/MyPatient",
+    "name" : "MyPatient",
+    "title" : "MyPatient",
+    "path" : "StructureDefinition-MyPatient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4/patient.html",
+    "status" : "active",
+    "date" : "Tue Jan 10 12:31:33 CET 2023",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "ANS",
+    "copyright" : null,
+    "description" : "An example profile of the Patient resource."
+  }
+}

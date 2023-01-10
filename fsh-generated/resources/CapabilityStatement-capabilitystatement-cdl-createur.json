@@ -1,0 +1,87 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "capabilitystatement-cdl-createur",
+  "url": "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-createur",
+  "name": "cdl-createur",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-19",
+  "publisher": "ANS",
+  "description": "Le créateur de contenu est une personne ou une entité qui alimente le cahier de liaison par des informations \nqui ont vocation à être partagées. Le créateur de contenu peut être un logiciel métier\ninstallé sur un ordinateur, une application installée sur un téléphone mobile ou une \ntablette ainsi que tout autre dispositif utilisé par une personne ou une entité pour \nalimenter le cahier de liaison.",
+  "fhirVersion": "4.3.0",
+  "format": [
+    "xml",
+    "json"
+  ],
+  "patchFormat": [
+    "application/xml-patch+xml",
+    "application/json-patch+json"
+  ],
+  "implementationGuide": [
+    "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
+  ],
+  "kind": "capability",
+  "rest": [
+    {
+      "mode": "client",
+      "security": {
+        "description": "See Smart on FHIR documentation"
+      },
+      "resource": [
+        {
+          "type": "DocumentReference",
+          "profile": "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
+          "interaction": [
+            {
+              "code": "update"
+            },
+            {
+              "code": "delete"
+            }
+          ],
+          "conditionalDelete": "single",
+          "searchInclude": [
+            "Device"
+          ],
+          "searchParam": [
+            {
+              "name": "subject",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-subject",
+              "type": "reference",
+              "documentation": "Permet la recherche sur les sujets de la note"
+            },
+            {
+              "name": "author",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-author",
+              "type": "reference",
+              "documentation": "Permet la recherche sur l'auteur de la note"
+            },
+            {
+              "name": "date",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-date",
+              "type": "date",
+              "documentation": "Permet la recherche sur la date de création de la note"
+            },
+            {
+              "name": "type",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-type",
+              "type": "token",
+              "documentation": "Permet la recherche sur le type de la note"
+            },
+            {
+              "name": "security-label",
+              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-security-label",
+              "type": "token",
+              "documentation": "Permet la recherche sur le degré de restriction de l'audience de la note"
+            }
+          ]
+        }
+      ],
+      "interaction": [
+        {
+          "code": "transaction"
+        }
+      ]
+    }
+  ]
+}
