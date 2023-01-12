@@ -11,13 +11,13 @@ qui ont vocation à être partagées. Le créateur de contenu peut être un logi
 installé sur un ordinateur, une application installée sur un téléphone mobile ou une 
 tablette ainsi que tout autre dispositif utilisé par une personne ou une entité pour 
 alimenter le cahier de liaison."
-* fhirVersion = #4.3.0
+* fhirVersion = #4.0.1
 * format[0] = #xml
 * format[+] = #json
 * patchFormat[0] = #application/xml-patch+xml
 * patchFormat[+] = #application/json-patch+json
 * implementationGuide = "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
-* kind = #capability
+* kind = #requirements
 * rest.mode = #client
 * rest.security.description = "See Smart on FHIR documentation"
 * rest.resource.type = #DocumentReference
@@ -43,7 +43,6 @@ alimenter le cahier de liaison."
 * rest.resource.searchParam[=].type = #date
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur la date de création de la note"
 * rest.resource.searchParam[+].name = "type"
-* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-type"
 * rest.resource.searchParam[=].type = #token
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur le type de la note"
 * rest.resource.searchParam[+].name = "security-label"
@@ -61,13 +60,13 @@ Usage: #definition
 * date = "2022-12-19"
 * publisher = "ANS"
 * description = "Le consommateur de contenu envoie une demande de recherche de notes au gestionnaire de CdL"
-* fhirVersion = #4.3.0
+* fhirVersion = #4.0.1
 * format[0] = #xml
 * format[+] = #json
 * patchFormat[0] = #application/xml-patch+xml
 * patchFormat[+] = #application/json-patch+json
 * implementationGuide = "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
-* kind = #capability
+* kind = #requirements
 * rest.mode = #client
 * rest.security.description = "See Smart on FHIR documentation"
 * rest.resource.type = #DocumentReference
@@ -93,7 +92,6 @@ Usage: #definition
 * rest.resource.searchParam[=].type = #date
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur la date de création de la note"
 * rest.resource.searchParam[+].name = "type"
-* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-type"
 * rest.resource.searchParam[=].type = #token
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur le type de la note"
 * rest.resource.searchParam[+].name = "security-label"
@@ -111,13 +109,13 @@ Usage: #definition
 * date = "2022-12-19"
 * publisher = "ANS"
 * description = "Système d'information ou composant de système d'information qui implémente le cahier de liaison"
-* fhirVersion = #4.3.0
+* fhirVersion = #4.0.1
 * format[0] = #xml
 * format[+] = #json
 * patchFormat[0] = #application/xml-patch+xml
 * patchFormat[+] = #application/json-patch+json
 * implementationGuide = "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
-* kind = #capability
+* kind = #requirements
 * rest.mode = #server
 * rest.security.description = "See Smart on FHIR documentation"
 * rest.resource.type = #DocumentReference
@@ -143,7 +141,6 @@ Usage: #definition
 * rest.resource.searchParam[=].type = #date
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur la date de création de la note"
 * rest.resource.searchParam[+].name = "type"
-* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/DocumentReference-type"
 * rest.resource.searchParam[=].type = #token
 * rest.resource.searchParam[=].documentation = "Permet la recherche sur le type de la note"
 * rest.resource.searchParam[+].name = "security-label"

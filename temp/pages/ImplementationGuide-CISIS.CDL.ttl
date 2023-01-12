@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDL</h2><p>The official URL for this implementation guide is: </p><pre>http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL</pre></div>"
   ]; # 
   fhir:ImplementationGuide.url [ fhir:value "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"]; # 
-  fhir:ImplementationGuide.version [ fhir:value "1.0"]; # 
+  fhir:ImplementationGuide.version [ fhir:value "0.0.1"]; # 
   fhir:ImplementationGuide.name [ fhir:value "CDL"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-01-10T12:31:33+01:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-01-12T11:08:34+01:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "ANS"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;

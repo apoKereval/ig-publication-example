@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>cdl-gestionnaire</h2><div><p>Système d'information ou composant de système d'information qui implémente le cahier de liaison</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"DELETE a resource (delete interaction)\">Delete</b></th></tr><tr><td>DocumentReference</td><td><a href=\"http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference\">http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference</a></td><td></td><td></td><td>y</td><td></td><td>y</td></tr></table></div>"
   },
   "url" : "http://esante.gouv.fr/ci-sis/fhir/CapabilityStatement/capabilitystatement-cdl-gestionnaire",
-  "version" : "1.0",
+  "version" : "0.0.1",
   "name" : "cdl-gestionnaire",
   "status" : "draft",
   "experimental" : true,
@@ -20,8 +20,8 @@
     }]
   }],
   "description" : "Système d'information ou composant de système d'information qui implémente le cahier de liaison",
-  "kind" : "capability",
-  "fhirVersion" : "4.3.0",
+  "kind" : "requirements",
+  "fhirVersion" : "4.0.1",
   "format" : ["xml",
   "json"],
   "patchFormat" : ["application/xml-patch+xml",
@@ -63,7 +63,6 @@
       },
       {
         "name" : "type",
-        "definition" : "http://hl7.org/fhir/SearchParameter/DocumentReference-type",
         "type" : "token",
         "documentation" : "Permet la recherche sur le type de la note"
       },

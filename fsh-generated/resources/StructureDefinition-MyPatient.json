@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/MyPatient",
-  "version": "1.0",
+  "version": "0.0.1",
   "name": "MyPatient",
   "status": "active",
   "description": "An example profile of the Patient resource.",

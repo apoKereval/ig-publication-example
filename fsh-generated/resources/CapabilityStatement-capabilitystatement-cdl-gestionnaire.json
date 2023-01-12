@@ -8,7 +8,7 @@
   "date": "2022-12-19",
   "publisher": "ANS",
   "description": "Système d'information ou composant de système d'information qui implémente le cahier de liaison",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "format": [
     "xml",
     "json"
@@ -20,7 +20,7 @@
   "implementationGuide": [
     "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
   ],
-  "kind": "capability",
+  "kind": "requirements",
   "rest": [
     {
       "mode": "server",
@@ -64,7 +64,6 @@
             },
             {
               "name": "type",
-              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-type",
               "type": "token",
               "documentation": "Permet la recherche sur le type de la note"
             },

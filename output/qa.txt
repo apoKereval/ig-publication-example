@@ -1,13 +1,13 @@
 ﻿CDL : Validation Results
 =========================================
 
-err = 9, warn = 12, info = 0
+err = 0, warn = 12, info = 0
 IG Publisher Version: 1.2.26
-Generated Tue Jan 10 12:31:43 CET 2023. FHIR version 4.0.1 for CISIS.CDL#1.0 (canonical = http://esante.gouv.fr/ci-sis/fhir)
+Generated Thu Jan 12 11:08:47 CET 2023. FHIR version 4.0.1 for CISIS.CDL#0.0.1 (canonical = http://esante.gouv.fr/ci-sis/fhir)
  Build Errors : 0 / 4 / 0
- /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-consommateur : 3 / 1 / 1
- /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-createur : 3 / 1 / 1
- /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-gestionnaire : 3 / 1 / 1
+ /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-consommateur : 0 / 1 / 1
+ /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-createur : 0 / 1 / 1
+ /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-gestionnaire : 0 / 1 / 1
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/ImplementationGuide-CISIS.CDL : 0 / 0 / 1
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
@@ -20,19 +20,10 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-consommateur.json ==
 WARNING: CapabilityStatement/capabilitystatement-cdl-consommateur: CapabilityStatement: Rule cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-consommateur: CapabilityStatement: Rule cpb-15: 'If kind = capability, implementation must be absent, software must be present' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-consommateur: CapabilityStatement.fhirVersion: The value provided ('4.3.0') is not in the value set 'FHIRVersion' (http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.3.0 in http://hl7.org/fhir/FHIR-version)
-ERROR: CapabilityStatement/capabilitystatement-cdl-consommateur: CapabilityStatement.rest[0].resource[0].searchParam[3].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/DocumentReference-type' does not resolve
 == fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-createur.json ==
 WARNING: CapabilityStatement/capabilitystatement-cdl-createur: CapabilityStatement: Rule cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-createur: CapabilityStatement: Rule cpb-15: 'If kind = capability, implementation must be absent, software must be present' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-createur: CapabilityStatement.fhirVersion: The value provided ('4.3.0') is not in the value set 'FHIRVersion' (http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.3.0 in http://hl7.org/fhir/FHIR-version)
-ERROR: CapabilityStatement/capabilitystatement-cdl-createur: CapabilityStatement.rest[0].resource[0].searchParam[3].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/DocumentReference-type' does not resolve
 == fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-gestionnaire.json ==
 WARNING: CapabilityStatement/capabilitystatement-cdl-gestionnaire: CapabilityStatement: Rule cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-gestionnaire: CapabilityStatement: Rule cpb-15: 'If kind = capability, implementation must be absent, software must be present' Failed
-ERROR: CapabilityStatement/capabilitystatement-cdl-gestionnaire: CapabilityStatement.fhirVersion: The value provided ('4.3.0') is not in the value set 'FHIRVersion' (http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.3.0 in http://hl7.org/fhir/FHIR-version)
-ERROR: CapabilityStatement/capabilitystatement-cdl-gestionnaire: CapabilityStatement.rest[0].resource[0].searchParam[3].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/DocumentReference-type' does not resolve
 == fsh-generated/resources/ImplementationGuide-CISIS.CDL.json ==
 == fsh-generated/resources/Patient-PatientExample.json ==
 == fsh-generated/resources/StructureDefinition-MyPatient.json ==

@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
-  "version": "1.0",
+  "version": "0.0.1",
   "name": "CdLDocumentReference",
   "status": "active",
   "description": "Profil permettant de représenter les informations relatives à la note",

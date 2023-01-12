@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "CISIS.CDL",
   "url": "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL",
-  "version": "1.0",
+  "version": "0.0.1",
   "name": "CDL",
   "status": "draft",
   "publisher": "ANS",

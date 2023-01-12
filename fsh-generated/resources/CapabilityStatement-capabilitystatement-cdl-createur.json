@@ -8,7 +8,7 @@
   "date": "2022-12-19",
   "publisher": "ANS",
   "description": "Le créateur de contenu est une personne ou une entité qui alimente le cahier de liaison par des informations \nqui ont vocation à être partagées. Le créateur de contenu peut être un logiciel métier\ninstallé sur un ordinateur, une application installée sur un téléphone mobile ou une \ntablette ainsi que tout autre dispositif utilisé par une personne ou une entité pour \nalimenter le cahier de liaison.",
-  "fhirVersion": "4.3.0",
+  "fhirVersion": "4.0.1",
   "format": [
     "xml",
     "json"
@@ -20,7 +20,7 @@
   "implementationGuide": [
     "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL"
   ],
-  "kind": "capability",
+  "kind": "requirements",
   "rest": [
     {
       "mode": "client",
@@ -64,7 +64,6 @@
             },
             {
               "name": "type",
-              "definition": "http://hl7.org/fhir/SearchParameter/DocumentReference-type",
               "type": "token",
               "documentation": "Permet la recherche sur le type de la note"
             },
