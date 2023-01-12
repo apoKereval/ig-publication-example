@@ -9,7 +9,7 @@
     "url" : "http://esante.gouv.fr/ci-sis/fhir/ImplementationGuide/CISIS.CDL",
     "version" : "0.0.1",
     "name" : "CDL",
-    "date" : "2023-01-12T11:08:34+01:00",
+    "date" : "2023-01-12T14:43:00+01:00",
     "status" : {
       "class" : "colsd",
       "owner" : "ANS",
@@ -38,7 +38,7 @@
     "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/cdl-documentreference",
     "version" : "0.0.1",
     "name" : "CdLDocumentReference",
-    "date" : "2023-01-12T11:08:34+01:00",
+    "date" : "2023-01-12T14:43:00+01:00",
     "description" : "Profil permettant de représenter les informations relatives à la note",
     "status" : {
       "class" : "colsi",
@@ -77,7 +77,7 @@
     "url" : "http://esante.gouv.fr/ci-sis/fhir/StructureDefinition/MyPatient",
     "version" : "0.0.1",
     "name" : "MyPatient",
-    "date" : "2023-01-12T11:08:34+01:00",
+    "date" : "2023-01-12T14:43:00+01:00",
     "description" : "An example profile of the Patient resource.",
     "status" : {
       "class" : "colsi",

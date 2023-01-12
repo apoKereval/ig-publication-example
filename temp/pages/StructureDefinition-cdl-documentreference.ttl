@@ -25,7 +25,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.0.1"]; # 
   fhir:StructureDefinition.name [ fhir:value "CdLDocumentReference"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-01-12T11:08:34+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-01-12T14:43:00+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "ANS"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

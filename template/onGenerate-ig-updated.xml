@@ -12,7 +12,7 @@
     <version value="0.0.1"/>
     <name value="CDL"/>
     <status value="draft"/>
-    <date value="2023-01-12T11:08:34+01:00"/>
+    <date value="2023-01-12T14:43:00+01:00"/>
     <publisher value="ANS"/>
     <contact>
         <name value="ANS"/>
@@ -403,6 +403,10 @@
         </page>
         <parameter>
             <code value="path-resource"/>
+            <value value="input/pagecontent/MOS_HTML"/>
+        </parameter>
+        <parameter>
+            <code value="path-resource"/>
             <value value="input/capabilities"/>
         </parameter>
         <parameter>
@@ -432,10 +436,6 @@
         <parameter>
             <code value="path-resource"/>
             <value value="input/vocabulary"/>
-        </parameter>
-        <parameter>
-            <code value="path-resource"/>
-            <value value="input/maps"/>
         </parameter>
         <parameter>
             <code value="path-resource"/>

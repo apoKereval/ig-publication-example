@@ -211,3 +211,7 @@ menu:
 #   if InstanceOf references a profile:
 #
 #   setId: always # always | standalone-only
+
+parameters:
+  path-resource:
+    - input/pagecontent/MOS_HTML

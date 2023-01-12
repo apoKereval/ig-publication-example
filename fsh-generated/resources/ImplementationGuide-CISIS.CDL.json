@@ -103,6 +103,10 @@
       {
         "code": "releaselabel",
         "value": "ci-build"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/pagecontent/MOS_HTML"
       }
     ]
   }

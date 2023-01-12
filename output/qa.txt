@@ -3,8 +3,8 @@
 
 err = 0, warn = 12, info = 0
 IG Publisher Version: 1.2.26
-Generated Thu Jan 12 11:08:47 CET 2023. FHIR version 4.0.1 for CISIS.CDL#0.0.1 (canonical = http://esante.gouv.fr/ci-sis/fhir)
- Build Errors : 0 / 4 / 0
+Generated Thu Jan 12 14:43:35 CET 2023. FHIR version 4.0.1 for CISIS.CDL#0.0.1 (canonical = http://esante.gouv.fr/ci-sis/fhir)
+ Build Errors : 1 / 4 / 0
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-consommateur : 0 / 1 / 1
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-createur : 0 / 1 / 1
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/CapabilityStatement-capabilitystatement-cdl-gestionnaire : 0 / 1 / 1
@@ -14,6 +14,7 @@ Generated Thu Jan 12 11:08:47 CET 2023. FHIR version 4.0.1 for CISIS.CDL#0.0.1 (
  /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/fsh-generated/resources/StructureDefinition-cdl-documentreference : 0 / 5 / 1
 </table>
 == n/a ==
+ERROR: /home/apo@kereval.com/Projets/2022-12-14_IG_FHIR/CDL_APO/cdl_IG/output/index.html#/html/body/div/div/div/div/div/ul/li/a at Line 180, column 47: The link 'MOS_HTML/index.html' for "ICI" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

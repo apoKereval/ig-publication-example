@@ -9,7 +9,7 @@
   "version" : "0.0.1",
   "name" : "CDL",
   "status" : "draft",
-  "date" : "2023-01-12T11:08:34+01:00",
+  "date" : "2023-01-12T14:43:00+01:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -664,6 +664,10 @@
     },
     "parameter" : [{
       "code" : "path-resource",
+      "value" : "input/pagecontent/MOS_HTML"
+    },
+    {
+      "code" : "path-resource",
       "value" : "input/capabilities"
     },
     {
@@ -693,10 +697,6 @@
     {
       "code" : "path-resource",
       "value" : "input/vocabulary"
-    },
-    {
-      "code" : "path-resource",
-      "value" : "input/maps"
     },
     {
       "code" : "path-resource",
